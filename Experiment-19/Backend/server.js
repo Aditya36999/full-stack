@@ -5,7 +5,7 @@ const port = 5000;
 
 // Enable CORS for all routes
 app.use(cors({
-  "origin": "http://localhost:5174"
+  "origin": "http://localhost:3000"
 }));
 
 // Dummy API endpoint
